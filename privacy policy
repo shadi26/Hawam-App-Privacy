@@ -1,0 +1,54 @@
+Hawam App – Privacy Policy & Terms of Service
+Privacy Policy
+Last updated: May 25, 2025
+
+Hawam is a private business management application used exclusively by managers and workers. It is not intended for public use or distribution.
+
+Information Collected
+Customer names, phone numbers, and addresses
+Appointment details and notes
+Employee names and work schedules
+Customer-related project records
+All data is securely stored using Google Firebase Firestore.
+
+Permissions
+Notifications: to alert managers before upcoming appointments
+Internet access: for real-time Firebase data sync
+Manual sharing: admins can manually forward customer details and their related projects via WhatsApp or Gmail to the office for coordination purposes.
+Each customer in the app can have one or more projects assigned to them. These project records, along with the customer's contact details, can be manually shared through Gmail or WhatsApp.
+
+Backend Services & Messaging
+Firebase Authentication: used to verify and restrict access to authorized users
+Role-based access control: ensures only managers can perform critical actions
+Firebase Cloud Functions: handle automated reminders and backend processing
+3-hour notifications: managers receive push alerts 3 hours before appointments
+24-hour SMS reminders: customers receive SMS reminders 24 hours before appointments
+Vonage API: sends SMS confirmations to customers immediately when appointments are created
+All backend communication is secure and limited to operational needs only.
+
+Data Usage & Sharing
+Data is used exclusively to manage appointments, employees, and customers. It is never sold or shared with third parties. Any customer/project info sent via WhatsApp or Gmail is initiated manually by the admin.
+
+Security
+Access is restricted through Firebase Authentication, and sensitive actions are protected through role-based permissions.
+
+Terms of Service
+Last updated: May 25, 2025
+
+1. Use of the App
+The Hawam app is provided to businesses for internal use only. All users must be authorized staff or managers. Use of the app must comply with local laws and the terms outlined here.
+
+2. No Warranties
+The app is provided "as is" with no guarantees regarding uptime, performance, or freedom from defects.
+
+3. Governing Law
+These terms are governed by the laws of Israel. Any legal disputes will be handled in courts located in Israel.
+
+Contact & Changes
+Contact Us
+For any questions regarding our Privacy Policy or Terms of Service, please contact:
+
+Email: vynix-info@vynix.net
+
+Changes to This Policy
+We may update this policy as the app evolves. Major updates will be posted here with a revised date.
